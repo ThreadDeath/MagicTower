@@ -1,8 +1,8 @@
 #include "cocos2d.h"
 #include "CCEGLView.h"
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "Inc.h"
 
 using namespace CocosDenshion;
 
@@ -15,6 +15,7 @@ AppDelegate::AppDelegate()
 AppDelegate::~AppDelegate()
 {
     SimpleAudioEngine::end();
+	sAnimationManager->release();
 }
 
 bool AppDelegate::applicationDidFinishLaunching()
@@ -29,10 +30,12 @@ bool AppDelegate::applicationDidFinishLaunching()
     // set FPS. the default value is 1.0/60 if you don't call this
     pDirector->setAnimationInterval(1.0 / 60);
 
-    // create a scene. it's an autorelease object
-    CCScene *pScene = HelloWorld::scene();
+	//初始化动画管理器
+	sAnimationManager->initAnimationMap();
 
-    // run
+    // create a scene. it's an autorelease object
+	CCScene *pScene = GameScene::playNewGame();
+
     pDirector->runWithScene(pScene);
     return true;
 }

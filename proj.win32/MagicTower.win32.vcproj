@@ -194,11 +194,35 @@
 			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm"
 			>
 			<File
+				RelativePath=".\AnimationManager.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\Classes\AppDelegate.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\Classes\HelloWorldScene.cpp"
+				RelativePath=".\ControlLayer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GameLayer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GameMap.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GameScene.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Global.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Hero.cpp"
 				>
 			</File>
 			<File
@@ -211,11 +235,43 @@
 			Filter="h;hpp;hxx;hm;inl;inc"
 			>
 			<File
+				RelativePath=".\AnimationManager.h"
+				>
+			</File>
+			<File
 				RelativePath="..\Classes\AppDelegate.h"
 				>
 			</File>
 			<File
-				RelativePath="..\Classes\HelloWorldScene.h"
+				RelativePath=".\ControlLayer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\GameConstants.h"
+				>
+			</File>
+			<File
+				RelativePath=".\GameLayer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\GameMap.h"
+				>
+			</File>
+			<File
+				RelativePath=".\GameScene.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Global.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Hero.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Inc.h"
 				>
 			</File>
 			<File
@@ -226,11 +282,39 @@
 				RelativePath=".\resource.h"
 				>
 			</File>
+			<File
+				RelativePath=".\Singleton.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="resource"
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest"
 			>
+			<File
+				RelativePath="..\Resources\0.tmx"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\btn_down.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\btn_left.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\btn_normal.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\btn_right.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\btn_up.png"
+				>
+			</File>
 			<File
 				RelativePath="..\Resources\CloseNormal.png"
 				>
@@ -240,7 +324,27 @@
 				>
 			</File>
 			<File
+				RelativePath="..\Resources\door.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\down_floor.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\enemy.png"
+				>
+			</File>
+			<File
 				RelativePath="..\Resources\HelloWorld.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\hero.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\item.png"
 				>
 			</File>
 			<File
@@ -249,6 +353,22 @@
 			</File>
 			<File
 				RelativePath=".\MagicTower.rc"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\npc.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\sword.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\terrain.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\up_floor.png"
 				>
 			</File>
 		</Filter>
